@@ -6,7 +6,26 @@ it were called as an instance method or as a class method.
 
 ### Usage
 ```py
+from hybridmethods import *
 
+
+class Test1:
+    @hybridmethod
+    def method(this):
+        if instance(this):  # Run when called as instance method
+            pass
+        else:  # Run when called as class method
+            pass
+
+
+class Test2:
+    @classmethod
+    def method(cls):
+        pass
+
+    @classmethod.instance
+    def _(self):
+        pass
 ```
 """
 # * Constants
