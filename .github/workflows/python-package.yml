@@ -37,7 +37,8 @@ jobs:
         python -m pip install -r lints.txt
 
         poetry env use ${{ matrix.python-version }}
-        poetry add pytest --platform ${{ matrix.python-version }}
+        poetry add pytest@latest
+        poetry update
         poetry install
     - name: Lint with flake8
       run: |
