@@ -1,6 +1,7 @@
 [tool.poetry]
 name = "hybridmethods"
 version = "0.1.0"
+authors = ["Dense Reptile <80247368+DenseReptile@users.noreply.github.com>"]
 description = "Library to create hybrids of class methods and instance methods"
 license = "0BSD"
 keywords = ["hybridmethod", "method", "methods", "utility"]
@@ -11,7 +12,6 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
