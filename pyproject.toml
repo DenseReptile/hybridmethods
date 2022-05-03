@@ -6,10 +6,17 @@ description = "Library to create hybrids of class methods and instance methods"
 license = "0BSD"
 keywords = ["hybridmethod", "method", "methods", "utility"]
 classifiers = [
+    # Python Metadata
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
     # Project Metadata
     "License :: OSI Approved :: BSD License",
     "Intended Audience :: Developers",
 ]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.7"
