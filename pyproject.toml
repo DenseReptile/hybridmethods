@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hybridmethods"
+version = "0.1.0"
+description = "Library to create hybrids of class methods and instance methods"
+license = "0BSD"
+keywords = ["hybridmethod", "method", "methods", "utility"]
+classifiers = [
+    # Project Metadata
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Developers",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
